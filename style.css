@@ -1,0 +1,188 @@
+@font-face{
+    font-family: open-sans-bold;
+    src: url(/Yelp/font/open-sans-bold.woff2);
+}
+@font-face{
+    font-family: 'opens-sans-regular';
+    src: url(/Yelp/font/open-sans-regular.woff2);
+}
+@font-face{
+    font-family: 'open-sanssemibold';
+    src: url(/Yelp/font/open-sans-semibold.woff2);
+}
+@font-face{
+    font-family: 'poppins-bold';
+    src: url(/Yelp/font/poppins-bold.woff2);
+}
+@font-face{
+    font-family: 'poppins-medium';
+    src: url(/Yelp/font/poppins-medium.woff2);
+}
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+header{
+    background-image:
+                linear-gradient(to top,
+                    transparent,
+                    rgba(0, 0, 0, 0.75)), 
+                      url('/Yelp/Images/header1.jpg');
+    background-position: fixed;
+    height: 76.5vh;
+    color: white;
+    
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 29px;
+    
+}
+.yelp {
+    margin-left: -32.5%;
+    
+}
+.centre{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    border: 2px solid white;
+    background: white;
+    height: 39px;
+    width: 100%;
+    max-width: 84%;
+    color: black;
+    margin-left: -117px;
+    border-radius: 8px;
+    
+    
+    
+}
+.things{
+    padding: 10px;
+    margin-right: 250px;
+}
+/*.sidecentre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}*/
+.sidecentre{
+    padding: 10px;
+    margin-right: 270px;
+}
+.search{
+    
+    margin-top: -2px;
+}
+.search svg{
+    background: red;
+    padding: 10px;
+    
+    text-align: center;
+    align-items: center;
+    width: 30px;
+    
+
+}
+.yelpbusiness{
+    display:flex;
+    width: 100%;
+    max-width: max-content;
+
+}
+.yelpbusiness span{
+    margin: 2px;
+}
+.yelpbusiness button{
+    
+    margin: 5px;
+}
+button{
+    width: 100%;
+    max-width: max-content;
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+.log{
+    background: transparent;
+    border:1px solid white;
+    padding: 10px 10px 10px 10px;
+}
+.sign{
+    background:red;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid transparent;
+}
+.tree{
+    display: flex;
+    border: 2px solid transparent;
+    background: red;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+
+}
+.tree .svg{
+    background: transparent;
+    border: none;
+}
+.treebutton{
+    
+    background: transparent;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+.centrebottom {
+    margin-left: 19.5%;
+    display: flex;
+    gap: 2px;
+    width: 100%;
+    max-width: 590px;
+    padding-top: 20px;
+    
+}
+.farewell{
+    width: 100%;
+    max-width: 25%;
+    margin-left: 21.5%;
+    padding-top: 95px;
+    
+    
+}
+.farewell >div{
+    
+   margin-bottom: 20px;
+}
+.farewell span{
+    font-family: 'poppins-bold';
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    letter-spacing:-0.04px ;
+    
+    
+}
+.treebutton{
+    font-family: 'poppins-medium';
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
