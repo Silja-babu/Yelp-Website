@@ -1,5 +1,5 @@
 @font-face{
-    font-family: open-sans-bold;
+    font-family: 'open-sans-bold';
     src: url(/Yelp/font/open-sans-bold.woff2);
 }
 @font-face{
@@ -18,7 +18,9 @@
     font-family: 'poppins-medium';
     src: url(/Yelp/font/poppins-medium.woff2);
 }
-
+body,html{
+    overflow-x: hidden;
+}
 
 
 
@@ -38,42 +40,73 @@ header{
                     rgba(0, 0, 0, 0.75)), 
                       url('/Yelp/Images/header1.jpg');
     background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
     height: 76.5vh;
     color: white;
-    
+    width: 100%;
+   
     
 }
 .header{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 5fr;
+ 
     margin: 0;
-    padding: 0;
-    width: 100%;
-    padding-top: 29px;
+    padding: 28px 0px 0px 0px;
+    left: 0;
+    
+    
+    
+    
+    
+    
     
 }
-.yelp {
-    margin-left: -32.5%;
+
+.subheader{
+    display: flex;
+    flex-direction: row;
+    
+    text-align: center;
+}
+.yelp svg {
+    width: 100%;
+    max-width: 600px;
+    
+    
     
 }
 .centre{
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 3fr 2fr 1fr;
     border: 2px solid white;
     background: white;
-    height: 39px;
+    height: 43px;
     width: 100%;
-    max-width: 84%;
+    max-width:47.9%;
     color: black;
-    margin-left: -117px;
-    border-radius: 8px;
+    margin-left: 39px;
+    border-radius: 3px 0px 0px 3px;
     
     
     
 }
 .things{
-    padding: 10px;
-    margin-right: 250px;
+    padding: 12px;
+    text-align: left;
+    
+}
+.things span{
+
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+    color: gray;
 }
 /*.sidecentre{
     display: flex;
@@ -83,34 +116,57 @@ header{
 }*/
 .sidecentre{
     padding: 10px;
-    margin-right: 270px;
+    text-align: justify;
+    
+}
+.sidecentre span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 20px;
+    font-family: 'opens-sans-regular';
 }
 .search{
-    
     margin-top: -2px;
+    margin-left: 75px;
 }
 .search svg{
-    background: red;
-    padding: 10px;
+    background: rgb(209, 4, 4);
+    padding:13px 13px 10px 10px ;
+    justify-content: center;
+    border-radius:0px 5px 5px 0px ;
+    position: sticky;
     
-    text-align: center;
     align-items: center;
     width: 30px;
+    
     
 
 }
 .yelpbusiness{
     display:flex;
     width: 100%;
-    max-width: max-content;
+    max-width: 40%;
+    margin: 9px 0px 0px 87px;
+   
 
 }
 .yelpbusiness span{
-    margin: 2px;
-}
-.yelpbusiness button{
     
-    margin: 5px;
+    
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: 'open-sanssemibold';
+}
+.yelpbusiness  .sign{
+   
+    
+}
+.yelpbusiness .log{
+    margin-right: 15px;
+   
 }
 button{
     width: 100%;
@@ -118,50 +174,80 @@ button{
     color: white;
     align-items: center;
     align-content: center;
+    
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    font-family: 'poppins-medium';
+    margin-top: -9px;
 }
 .log{
     background: transparent;
     border:1px solid white;
-    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    padding: 1px 17px 1px 17px;
 }
 .sign{
     background:red;
-    padding: 10px 10px 10px 10px;
+    padding: 1px 14px 1px 14px;
+    border-radius: 5px;
     border: 2px solid transparent;
 }
 .tree{
     display: flex;
     border: 2px solid transparent;
-    background: red;
+    background: rgb(192, 4, 4);
     width: 100%;
     max-width: fit-content;
     align-items: center;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 25px 2px 30px;
+    border-radius: 5px;
+    justify-content: center;
 
 }
 .tree .svg{
     background: transparent;
     border: none;
+    margin-right: 4px;
+    margin-top: -2px;
 }
 .treebutton{
     
     background: transparent;
     border: none;
-    padding: 10px 10px 10px 10px;
+    
 }
 .centrebottom {
-    margin-left: 19.5%;
+    margin-left: 20.3%;
     display: flex;
-    gap: 2px;
-    width: 100%;
-    max-width: 590px;
+    
+    
     padding-top: 20px;
+    
+}
+.centrebottom >div{
+    margin-left: -20px;
+}
+.centrebottom span{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+.downarrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: max-content;
+}
+.downarrow svg{
     
 }
 .farewell{
     width: 100%;
     max-width: 25%;
-    margin-left: 21.5%;
+    margin-left: 21.3%;
     padding-top: 95px;
     
     
@@ -185,4 +271,370 @@ button{
     line-height: 16px;
     font-weight: 400;
     letter-spacing: normal;
+}
+
+.Turftim{
+    width: max-content;
+    padding-left: 19%;
+    padding-top: 12%;
+}
+.Turftim h5{
+    font-size:14px ;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 700;
+    font-family: 'open-sans-bold';
+}
+.Turftim span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'open-sans-regular';
+}
+.Turftim span strong{
+    font-family: 'open-sans-bold';
+}
+@media(min-width:1200px){
+    .subheader{
+        margin-top: -3.5px;
+    }
+    .things span{
+        padding: 2px;
+        
+    }
+    
+    .sidecentre span{
+        margin-left: -1px;
+        
+    }
+}
+.things  {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+.sidecentre{
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+}
+  
+  
+
+.firstreview{
+    
+}
+.profile img{
+    width: 40px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    gap: 2px;
+}
+.starsection{
+    width: 20px;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+}
+  .starsection >div{
+    
+}
+  .starsection svg{
+    width: 20px;
+   
+    
+}
+  .limages{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+  .limages img{
+    max-height: 12vh;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.secondreview{
+    display: flex;
+    flex-direction: column;
+
+}
+.profile2{
+    display: flex;
+    gap: 2px;
+
+  }
+.profile2 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.lsla img{
+    width:100%;
+    max-height: 10vh;
+    object-fit:cover;
+}
+.starsection2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 90px;
+    
+}
+.starsection2 svg{
+    width: 30px;
+}
+.secondreview h5{
+    color: rgb(49, 189, 245);
+}
+.thirdreview{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile3{
+    display: flex;
+    gap: 2px;
+    
+}
+.profile3 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.starsection3{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 2px;
+}
+.starsection3 svg{
+    width: 20px;
+    
+}
+
+.plane{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.plane img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+    
+}
+.fouthreview{
+    display: flex;
+     flex-direction: column;
+    
+}
+.profile4 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.profile4{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.pizza img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+}
+.starsection4{
+    display: flex;
+    flex-direction: row;
+   
+}
+.starsection4 svg{
+    width: 20px;
+    margin: 0;
+}
+.fouthreview h5{
+    color: rgb(105, 105, 245);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.fifthreview{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.profile5 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.profile5{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection5{
+    display: flex;
+    flex-direction: row;
+}
+.starsection5 svg{
+    width: 20px;
+}
+.Violetta {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Violetta img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+}
+.fifthreview h5{
+    color: rgb(72, 72, 233);
+}
+.sixthreview{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile6 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.profile6{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection6{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection6 svg{
+    width: 20px;
+    
+}
+.troya{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.troya img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+
+}
+.sixthreview h5{
+    color: rgb(84, 84, 255);
+}
+.seventhreview{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile7{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.profile7 img{
+    
+    border-radius: 50%;
+}
+.starsection7{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection7 svg{
+    width: 20px;
+}
+.ABACA{
+    display: flex;
+    gap: 20px;
+}
+.ABACA img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+}
+.eightreview{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile8 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.profile8{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection8{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection8 svg{
+    width: 20px;
+}
+.Ippudo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Ippudo img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+}
+.ninthreview{
+    display: flex;
+    flex-direction: column;
+   
+}
+.profile9{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.profile9 img{
+    width: 40px;
+    border-radius: 50%;
+}
+.san img{
+    width: 100%;
+    max-height: 10vh;
+    object-fit: cover;
+}
+.starsection9{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection9 svg{
+    width: 20px;
+}
+.ninthreview h5{
+    color: rgb(61, 61, 245);
+}
+.review{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
 }
