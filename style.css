@@ -44,7 +44,7 @@ header{
     background-size: cover;
     background-position: center;
     
-    height: 76.5vh;
+    height: 78.5vh;
     color: white;
     width: 100%;
    
@@ -86,9 +86,9 @@ header{
     background: white;
     height: 43px;
     width: 100%;
-    max-width:47.9%;
+    max-width:48.4%;
     color: black;
-    margin-left: 39px;
+    margin-left: 41px;
     border-radius: 3px 0px 0px 3px;
     
     
@@ -165,7 +165,7 @@ header{
     
 }
 .yelpbusiness .log{
-    margin-right: 15px;
+    margin-right: 12px;
    
 }
 button{
@@ -174,13 +174,13 @@ button{
     color: white;
     align-items: center;
     align-content: center;
-    
+    height: 4.7vh;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
     font-weight: 500;
     font-family: 'poppins-medium';
-    margin-top: -9px;
+    margin-top: -8px;
 }
 .log{
     background: transparent;
@@ -190,7 +190,7 @@ button{
 }
 .sign{
     background:red;
-    padding: 1px 14px 1px 14px;
+    padding: 1px 14px 1px 12px;
     border-radius: 5px;
     border: 2px solid transparent;
 }
@@ -219,11 +219,11 @@ button{
     
 }
 .centrebottom {
-    margin-left: 20.3%;
+    margin-left: 20.7%;
     display: flex;
     
     
-    padding-top: 20px;
+    padding-top: 18px;
     
 }
 .centrebottom >div{
@@ -308,6 +308,15 @@ button{
         margin-left: -1px;
         
     }
+    
+    .yelpbusiness button{
+       
+        margin-right: -3.5px;
+    }
+    .yelpbusiness .log{
+        border: 2px solid white;
+    }
+    
 }
 .things  {
     white-space: nowrap;
@@ -324,13 +333,24 @@ button{
   
 
 .firstreview{
+    border:1px solid rgb(228, 228, 228);
+    padding: 12px;
+    height: 85%;
     
+}
+.limages1{
+    border: 0.4px solid rgb(228, 228, 228);
+}
+.limages2{
+    border: 0.2px solid rgb(228, 228, 228);
 }
 .profile img{
     width: 40px;
+    height: fit-content;
     border-radius: 50%;
 }
 .profile{
+   
     display: flex;
     gap: 2px;
 }
@@ -350,10 +370,12 @@ button{
    
     
 }
+
   .limages{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding-bottom: 60px;
     
 }
   .limages img{
@@ -365,20 +387,38 @@ button{
 .secondreview{
     display: flex;
     flex-direction: column;
+    border: 1px solid rgb(228, 228, 228);
+    
 
+}
+.secondreview h4{
+    padding-left: 10px;
+}
+.Joanne{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+   
+}
+.bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .profile2{
     display: flex;
     gap: 2px;
+    padding: 10px;
 
   }
 .profile2 img{
+    height: fit-content;
+    object-fit: cover;
     width: 40px;
     border-radius: 50%;
 }
 .lsla img{
     width:100%;
-    max-height: 10vh;
+    max-height: 16vh;
     object-fit:cover;
 }
 .starsection2{
@@ -392,11 +432,14 @@ button{
     width: 30px;
 }
 .secondreview h5{
-    color: rgb(49, 189, 245);
+    color: rgb(158, 122, 241);
 }
 .thirdreview{
+    border: 1px solid rgb(228, 228, 228);
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    height: 85%;
     
 }
 .profile3{
@@ -407,6 +450,7 @@ button{
 .profile3 img{
     width: 40px;
     border-radius: 50%;
+    height: fit-content;
 }
 .starsection3{
     display: flex;
@@ -418,7 +462,12 @@ button{
     width: 20px;
     
 }
-
+.plane1{
+    border: 1px solid rgb(228, 228, 228);
+}
+.plane2{
+    border: 1px solid rgb(228, 228, 228);
+}
 .plane{
     display: flex;
     flex-direction: row;
@@ -426,27 +475,34 @@ button{
 }
 .plane img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 12vh;
     object-fit: cover;
     
 }
 .fouthreview{
+    border: 1px solid rgb(228, 228, 228);
+    
     display: flex;
      flex-direction: column;
     
 }
+.fouthreview h4{
+    padding-left: 10px;
+}
 .profile4 img{
     width: 40px;
     border-radius: 50%;
+    height: fit-content;
 }
 .profile4{
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 2px;
 }
 .pizza img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 16vh;
     object-fit: cover;
 }
 .starsection4{
@@ -466,12 +522,16 @@ button{
     flex-direction: row;
 }
 .fifthreview{
+    border: 1px solid rgb(228, 228, 228);
+    padding: 10px;
+    height: 85%;
     display: flex;
     flex-direction: column;
     
 
 }
 .profile5 img{
+    height: fit-content;
     width: 40px;
     border-radius: 50%;
 }
@@ -487,6 +547,12 @@ button{
 .starsection5 svg{
     width: 20px;
 }
+.Violetta1{
+    border: 1px solid rgb(228, 228, 228);
+}
+.Violetta2{
+    border: 1px solid rgb(228, 228, 228);
+}
 .Violetta {
     display: flex;
     flex-direction: row;
@@ -494,18 +560,22 @@ button{
 }
 .Violetta img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 12vh;
     object-fit: cover;
 }
 .fifthreview h5{
     color: rgb(72, 72, 233);
 }
 .sixthreview{
+    border: 1px solid rgb(228, 228, 228);
+    height: 85%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     
 }
 .profile6 img{
+    height: fit-content;
     width: 40px;
     border-radius: 50%;
 }
@@ -528,9 +598,15 @@ button{
     flex-direction: row;
     gap: 10px;
 }
+.troya1 {
+    border: 1px solid rgb(228, 228, 228);
+}
+.troya2{
+    border: 1px solid rgb(228, 228, 228);
+}
 .troya img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 12vh;
     object-fit: cover;
 
 }
@@ -538,17 +614,28 @@ button{
     color: rgb(84, 84, 255);
 }
 .seventhreview{
+    border: 1px solid rgb(228, 228, 228);
+    height: 85%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     
 }
+.ABACA1{
+    border: 1px solid rgb(228, 228, 228);
+}
+.ABACA2{
+    border: 1px solid rgb(228, 228, 228);
+}
 .profile7{
+    
     display: flex;
     flex-direction: row;
     gap: 2px;
 }
 .profile7 img{
-    
+    height: fit-content;
+    width: 40px;
     border-radius: 50%;
 }
 .starsection7{
@@ -565,16 +652,20 @@ button{
 }
 .ABACA img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 12vh;
     object-fit: cover;
 }
 .eightreview{
+    border: 1px solid rgb(228, 228, 228);
+    height: 85%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     
 }
 .profile8 img{
     width: 40px;
+    height: fit-content;
     border-radius: 50%;
 }
 .profile8{
@@ -595,28 +686,42 @@ button{
     flex-direction: row;
     gap: 10px;
 }
+.Ippudo1{
+    border: 1px solid rgb(228, 228, 228);
+    
+}
+.Ippudo2{
+    border: 1px solid rgb(228, 228, 228);
+}
 .Ippudo img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 12vh;
     object-fit: cover;
 }
 .ninthreview{
+    border: 1px solid rgb(228, 228, 228);
+   
     display: flex;
     flex-direction: column;
    
 }
+.ninthreview h4{
+    padding-left: 10px;
+}
 .profile9{
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 2px;
 }
 .profile9 img{
+    height: fit-content;
     width: 40px;
     border-radius: 50%;
 }
 .san img{
     width: 100%;
-    max-height: 10vh;
+    max-height: 16vh;
     object-fit: cover;
 }
 .starsection9{
@@ -633,8 +738,431 @@ button{
 .review{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
+    grid-gap: 50px;
     width: 100%;
-    max-width: 80%;
+    max-width: 62%;
     margin: 0 auto;
+}
+.activity{
+    text-align: center;
+    padding: 20px;
+    
+}
+.tenthreview{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 10px;
+    height: 85%;
+   
+}
+.profile10{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.profile10 img{
+    width: 40px;
+    height: fit-content;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.starsection10{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection10 svg{
+    width: 20px;
+}
+.bakery{
+    display: flex;
+    gap: 20px;
+}
+.bakery1{
+    border: 1px solid rgb(228, 228, 228);
+}
+.bakery2{
+    border: 1px solid rgb(228, 228, 228);
+}
+.bakery1 img{
+    height: 12vh;
+    width: 100%;
+    object-fit: cover;
+}
+.bakery2 img{
+    height: 12vh;
+    object-fit: cover;
+    width: 100%;
+}
+.tenthreview h5{
+    color: blue;
+}
+.eleventhreview{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(228, 228, 228);
+    
+}
+.profile11{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+.profile11 img{
+    width: 40px;
+    height: fit-content;
+    border-radius: 50%;
+}
+.cigar img{
+    width: 100%;
+    height: 16vh;
+    object-fit: cover;
+}
+.starsection11{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection11 svg{
+    width: 20px;
+}
+.twelevthreview{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(228, 228, 228);
+    height: 85%;
+    
+}
+.profile12{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+
+}
+
+.profile12 img{
+    width: 40px;
+    height: fit-content;
+    border-radius: 50%;
+}
+.starsection12{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.starsection12 svg{
+    width: 20px;
+}
+.street{
+    height: 14vh;
+    width: 100%;
+    object-fit: cover;
+}
+.name{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: 'open-sanssemibold';
+}
+.time{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: 'open-sans-regular';
+}
+.review h4{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 700;
+    font-family: 'poppins-bold';
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.starsection span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.starsection3 span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.starsection5 span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.starsection7 span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.starsection8 span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.starsection10 span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.starsection12 span{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.base{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+}
+.para{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+    padding-top: 10px;
+}
+.review h5{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: 'open-sanssemibold';
+}
+.review{
+    padding-bottom: 30px;
+}
+.activity{
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    font-family: 'poppins-bold';
+}
+
+
+.show{
+    text-align: center;
+}
+.show h2{
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: 600;
+    font-family: 'open-sanssemibold';
+}
+.categories{
+    text-align: center;
+}
+.categories h2{
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    font-family: 'poppins-bold';
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    width: 100%;
+    max-width: 62%;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.category h3{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: 'open-sanssemibold';
+}
+.restaurant{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 6px;
+}
+.Shopping{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 6px;
+}
+.nightlife{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+.activelife{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+.beauty{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+.automotive{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 6px;
+}
+.home{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+.more{
+    border: 1px solid rgb(228, 228, 228) ;
+    padding-top: 60px;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+footer{
+    background: rgb(238, 246, 250);
+    
+}
+.footer{
+    padding-top: 60px;
+    width: 100%;
+    max-width: 62%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: left;
+    padding-bottom: 40px;
+    
+}
+.footer h5{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-family: 'open-sans-bold';
+    padding-bottom: 10px;
+    padding-top: 20px;
+   
+}
+.footer span{
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-family: 'opens-sans-regular';
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.discover{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.yelpfor{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.svg{
+    width: 64px;
+    margin-top: -10px;
+    
+    
+   
+}
+.foottext .svg2{
+    width: 10px;
+}
+.foottext{
+    padding-bottom: 60px;
+    width: 100%;
+    max-width: 62.5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.foottext span{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: 'opens-sans-regular';
+    color: grey;
+}
+
+@media(min-width:1200px){
+    .activity{
+
+        margin-top: 35px;
+        margin-left: -20px;
+        margin-bottom: 44px;
+    }
+}
+.groupofsomething img{
+    width: 45px;
+}
+.groupofsomething{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    max-width: 62%;
+    margin: 0 auto;
+    text-align: center;
+    grid-gap: 20px;
+
+}
+.groupofsomething >div{
+    
+    padding: 20px;
+    
+}
+.scrollingstarthere img{
+    width: 100%;
+    height: 16vh;
+    object-fit: cover;
+}
+.scrollingstarthere{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+   
+    
 }
